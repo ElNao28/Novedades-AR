@@ -1,23 +1,33 @@
 <nav class="navbar">
   <div class="input-group mb-3 mx-3">
-    <img class="logo" src="../../../../../assets/img/logo.png" alt="">
+    <a href="">
+      <img class="logo" src="../../../../../assets/img/logo.png" alt="">
+    </a>
     <input style="border-radius: 5px;" type="text" class="form-control" placeholder="Buscar Producto" aria-label="Recipient's username" aria-describedby="button-addon2">
     <button class="btn" type="button" style="border-radius: 5px;">Buscar</button>
     <div class="px-3 pt-2">
-      <a href=""><img src="../../../../../assets/img/user-icon.png" alt=""></a>
+      <div class="dropdown">
+        <a type="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><img src="../../../../../assets/img/user-icon.png" alt=""></a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a *ngIf="!isLogin" class="dropdown-item" href="login">Iniciar sesión</a></li>
+          <li><a *ngIf="!isLogin" class="dropdown-item" href="login/crear-cuenta">Crear una cuenta</a></li>
+          <li><a class="dropdown-item" href="perfil">Ver Perfil</a></li>
+        </ul>
+      </div>
     </div>
     <div class="px-1 pt-2">
-      <a href=""><img src="../../../../../assets/img/card-icon.png" alt=""></a>
+      <a href="productos/carrito"><img src="../../../../../assets/img/card-icon.png" alt=""></a>
     </div>
   </div>
   <div class="container mb-2">
     <div class="container">
       <div class="row">
-          <div class="col-2"><a href="">Inicio</a></div>
-          <div class="col-2"><a href="">Productos</a></div>
-          <div class="col-2"><a href="">Mis compras</a></div>
-          <div class="col-2"><a href="">Atención al cliente</a></div>
+          <div class="col-2"><a href="Inicio">Inicio</a></div>
+          <div class="col-2"><a href="productos">Productos</a></div>
+          <div class="col-2"><a href="mis-compras">Mis compras</a></div>
+          <div class="col-2"><a href="Atencion-al-cliente">Atención al cliente</a></div>
       </div>
     </div>
   </div>
 </nav>
+

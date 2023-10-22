@@ -20,6 +20,7 @@ import { PrevProductsComponent } from './components/prev-products/prev-products.
   exports:[
     AttentionClientComponent,
     HomePageComponent,
+    NavBarComponent
   ]
 })
 export class SharedModule { }
