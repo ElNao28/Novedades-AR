@@ -1,0 +1,28 @@
+.navbar{
+  background-color: pink;
+}
+.btn{
+  background-color: violet;
+}
+img{
+  height: 40px;
+  display: flex;
+}
+
+.logo{
+  height: 60px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 17px;
+}
+a{
+  color: rgba(51,51,51,.6);
+  text-decoration: none;
+}
+
+a:hover{
+ color: rgb(2, 2, 2)
+}
