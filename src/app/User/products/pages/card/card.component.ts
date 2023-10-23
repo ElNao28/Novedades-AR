@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class CardComponent {
 
+  numProd:number = 1;
+
+  incremented = ():void =>{
+    this.numProd++;
+    console.log(this.numProd);
+  }
+  dism = ():void =>{
+    if(this.numProd <= 1)
+      alert("Solo permiten valore positivos")
+    else
+      this.numProd--;
+      console.log(this.numProd);
+  }
 }

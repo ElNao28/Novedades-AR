@@ -1,0 +1,51 @@
+.container-general{
+  display: flex;
+  flex-direction: row;
+}
+.prod{
+  margin-right: 3%;
+}
+.prec{
+  background-color: rgba(252, 214, 220, 0.774);
+  width: 20%;
+}
+.prec h5{
+  font-size: 15px;
+}
+.product{
+  background-color: rgba(252, 214, 220, 0.774);
+  display: flex;
+  align-items: center;
+}
+.productos{
+  width: 80%;
+}
+h5{
+  margin-left: 25px;
+  width: 100%;
+}
+.product p{
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn{
+  width: 100%;
+  background-color: violet;
+}
+img{
+  border-radius: 3px;
+}
+.cantidad{
+  display: flex;
+}
+@media screen and (max-width: 600px) {
+  .container-general{
+    flex-direction: column;
+  }
+  .productos{
+    width: 100%;
+  }
+  .prec{
+    width: 100%;
+  }
+}
