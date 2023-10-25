@@ -6,7 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
-
   isLogin:boolean = false;
-
 }

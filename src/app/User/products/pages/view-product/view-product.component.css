@@ -1,0 +1,10 @@
+.producto{
+  display: flex;
+  background-color: rgba(252, 214, 220, 0.774);
+}
+.comentarios-general{
+  background-color: rgba(252, 214, 220, 0.774);
+}
+h5{
+  font-size: 30px;
+}

@@ -1,18 +1,18 @@
 <div class="container-general m-5">
 <div class="productos">
-    <div class="prod">
+    <div *ngFor="let datos of datos" class="prod">
       <div class="product rounded p-2 mb-2">
         <img src="https://oranch.com.mx/wp-content/uploads/2021/06/sublimados_0028_Captura-de-Pantalla-2021-06-08-a-las-13.34.08.jpg" height="100px" alt="">
-        <h5>Playera para caballero-unitalla-negra.......</h5>
+        <h5>{{datos.Nombre}}</h5>
         <div class="cantidad m-3">
           <button class="btn" (click)="dism()">-</button>
           <p class="m-2">{{numProd}}</p>
           <button class="btn" (click)="incremented()">+</button>
         </div>
-        <span class="precio"><p>Precio: $500.00</p></span>
+        <span class="precio"><p>Precio: ${{datos.Precio}}</p></span>
       </div>
     </div>
-    <div class="prod">
+    <!-- <div class="prod">
       <div class="product rounded p-2 mb-2">
         <img src="https://media.glamour.mx/photos/6190658ba6e030d6480f793f/master/w_1600%2Cc_limit/243827.jpg" height="100px" alt="">
         <h5>Pantalon-negro para caballero-unitalla-negra.......</h5>
@@ -35,7 +35,7 @@
         </div>
         <span class="precio"><p>Precio: $500.00</p></span>
       </div>
-    </div>
+    </div> -->
 </div>
 
   <div class="prec rounded p-3">
