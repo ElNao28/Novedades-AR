@@ -1,0 +1,43 @@
+.container-general{
+  display: flex;
+  flex-direction: row;
+}
+.prod{
+  margin-right: 3%;
+}
+.product{
+  background-color: rgba(252, 214, 220, 0.774);
+  display: flex;
+  align-items: center;
+}
+.productos{
+  width: 100%;
+}
+h5{
+  margin-left: 25px;
+  width: 100%;
+}
+.product p{
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn{
+  background-color: violet;
+}
+img{
+  border-radius: 3px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.filtro{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .container-general{
+    flex-direction: column;
+  }
+}
