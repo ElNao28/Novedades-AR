@@ -1,1 +1,31 @@
-<p>buy-product works!</p>
+<div class="container text-center my-5 comprar">
+  <h1>Detalles de Compra</h1>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title">Playera negra para caballero</h2>
+          <img class="rounded" src="../../../../../assets/img/a169422c-b292-4c46-9a1d-082f46b9220e_16-9-discover-aspect-ratio_default_0.jpg" width="50%" height="50%" alt="" />
+          <form>
+            <div class="mb-3">
+              <label for="quantity" class="form-label">Cantidad:</label>
+              <input type="number" class="form-control" id="quantity" value="1" min="1" />
+            </div>
+            <div class="mb-3">
+              <label for="payment" class="form-label">Método de Pago:</label>
+              <select class="form-select" id="payment">
+                <option value="tarjeta">Tarjeta de Crédito</option>
+                <option value="paypal">PayPal</option>
+                <option value="efectivo">Efectivo</option>
+              </select>
+              <p class="card-text mt-2"><strong>Precio: $50.00</strong></p>
+              <p class="card-text"><strong>Envio: $99.00</strong></p>
+              <p class="card-text"><strong>Total: $50.00</strong></p>
+            </div>
+            <button type="button" class="btn">Confirmar Compra</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

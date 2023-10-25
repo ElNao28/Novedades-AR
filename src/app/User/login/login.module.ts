@@ -4,6 +4,7 @@ import { CreateAccountComponent } from './pages/create-account/create-account.co
 import { LogInComponent } from './pages/log-in/log-in.component';
 import { RecoverPasswordComponent } from './pages/recover-password/recover-password.component';
 import { LoginRoutingModule } from './login.routing.module';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -14,7 +15,8 @@ import { LoginRoutingModule } from './login.routing.module';
     RecoverPasswordComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports:[
     CreateAccountComponent,

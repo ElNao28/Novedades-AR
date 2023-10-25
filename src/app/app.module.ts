@@ -7,6 +7,7 @@ import { ProductsModule } from './User/products/products.module';
 import { ProfileModule } from './User/profile/profile.module';
 import { SharedModule } from './User/shared/shared.module';
 import { ShoppingModule } from './User/shopping/shopping.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ShoppingModule } from './User/shopping/shopping.module';
     ProfileModule,
     SharedModule,
     ShoppingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { EditAddressComponent } from './pages/edit-address/edit-address.component';
 import { EditDataComponent } from './pages/edit-data/edit-data.component';
 import { ViewProfileComponent } from './pages/view-profile/view-profile.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -13,7 +14,8 @@ import { ViewProfileComponent } from './pages/view-profile/view-profile.componen
     ViewProfileComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports:[
     EditAddressComponent,

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ListShoppingComponent } from './pages/list-shopping/list-shopping.component';
 import { StatusShoppingComponent } from './pages/status-shopping/status-shopping.component';
 import { ShoppingRoutingModule } from './shopping.routing.module';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -12,7 +13,8 @@ import { ShoppingRoutingModule } from './shopping.routing.module';
     StatusShoppingComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports:[
     ListShoppingComponent,

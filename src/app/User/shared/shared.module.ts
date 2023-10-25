@@ -5,6 +5,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { PrevProductsComponent } from './components/prev-products/prev-products.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PrevProductsComponent } from './components/prev-products/prev-products.
     PrevProductsComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports:[
     AttentionClientComponent,
