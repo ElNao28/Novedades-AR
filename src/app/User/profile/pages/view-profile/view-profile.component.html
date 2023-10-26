@@ -1,1 +1,51 @@
-<p>view-profile works!</p>
+<div class="container mt-5 mb-5 p-5 rounded">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="text-center">
+        <img src="../../../../../assets/img/user-icon.png" alt="Foto de Perfil" class="img-fluid rounded-circle" style="max-width: 200px;">
+      </div>
+    </div>
+    <div class="col-md-8">
+      <h2>Mis Datos de Perfil</h2>
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" value="Juan" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="apellidos" class="form-label">Apellido Paterno</label>
+          <input type="text" class="form-control" id="apellidos" value="Pérez" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="apellidos" class="form-label">Apellido Materno</label>
+          <input type="text" class="form-control" id="apellidos" value="Pérez" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="apellidos" class="form-label">Genero</label>
+          <input type="text" class="form-control" id="apellidos" value="Pérez" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="username" class="form-label">Nombre de Usuario</label>
+          <input type="text" class="form-control" id="username" value="juanperez123" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="telefono" class="form-label">Número de Teléfono</label>
+          <input type="tel" class="form-control" id="telefono" value="555-555-5555" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="correo" value="juan@example.com" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="contrasena" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="contrasena" value="********" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="direccion" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="direccion" value="123 Calle Principal, Ciudad" disabled>
+        </div>
+        <button type="submit" routerLink="editar-perfil" class="btn">Editar Información</button>
+      </form>
+    </div>
+  </div>
+</div>
